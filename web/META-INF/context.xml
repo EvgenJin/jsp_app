@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/jsp_app">
+<!--    <Resource name="jdbc/db_ora" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="zc" 
+              password="gtpltw21"              
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@10.26.232.216:1521:card"
+              maxActive="10" 
+              maxIdle="4"/>-->
+    <Resource name="jdbc/db_ora" 
+              type="javax.sql.DataSource"
+              driverClassName="org.sqlite.JDBC"
+              url="jdbc:sqlite:C:\\Projects\\JAVA\\jsp_app\\database.sqlite3"/>              
+<!--    <Resource name="jdbc/sqlite"
+              type="javax.sql.DataSource"            
+              driverClassName="org.sqlite.JDBC"
+              url="jdbc:sqlite:C:\\Projects\\JAVA\\jsp_app\\database.sqlite3"/>              -->
+</Context>
